@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4f6f0fb8d4e994683536c30eedd233, type: 3}
+  m_Name: NamgungJiho
+  m_EditorClassIdentifier: 
+  name: Namgung Jiho
+  frontSprite: {fileID: -1188712365, guid: 8f9fc462a5b487843b39624675541897, type: 3}
+  level: 3
+  maxHP: 39
+  attack: 52
+  defense: 43
+  spAttack: 60
+  spDefense: 50
+  speed: 65
+  type1: 3
+  learnableMoves:
+  - moveBase: {fileID: 11400000, guid: a00f86d346efdc04c9406efbf908b78a, type: 2}
+    level: 1
+  - moveBase: {fileID: 11400000, guid: 553596499c7c5e54084415c466acac0a, type: 2}
+    level: 1
